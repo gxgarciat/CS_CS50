@@ -3,7 +3,7 @@
 
 int main(void)
 {
-  // Get numbers from user
+  // Get numbers from user 
   int x = get_int("x: ");
   int y = get_int("y: ");
 
