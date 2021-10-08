@@ -3,6 +3,7 @@
 
 int main(void)
 {
+
   /* code */
   int x = get_int("x: ");
   int y = get_int("y: ");
