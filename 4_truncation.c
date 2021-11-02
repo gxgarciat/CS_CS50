@@ -10,4 +10,5 @@ int main(void)
   // Calculation & printing out
   float z = (float) x / (float) y;
   printf("%f \n", z);
+  
 }
