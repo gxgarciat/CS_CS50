@@ -3,7 +3,6 @@
 
 int main(void)
 {
-
   // Get numbers from user 
   int x = get_int("x: ");
   int y = get_int("y: ");
@@ -11,5 +10,5 @@ int main(void)
   // Calculation & printing out
   float z = (float) x / (float) y;
   printf("%f \n", z);
-  
+
 }
