@@ -12,6 +12,7 @@ int main(void)
   }
   else if (c == 'n' || c == 'N')
   {
+  
     printf("Not agreed. \n");
   }
   
