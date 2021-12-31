@@ -16,7 +16,6 @@ int main(void)
 
         ssize = get_int("Start size: ");
 
-
     }
     while (ssize <9);
 
