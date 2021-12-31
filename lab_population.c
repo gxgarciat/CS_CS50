@@ -3,13 +3,43 @@
 
 int main(void)
 {
+    int ssize;
+    int esize;
+    int years;
+    int born;
+    int pass;
+    int total;
+    int i;
+    i = 0;
+    do
+    {
 
-    // TODO: Prompt for start size
+        ssize = get_int("Start size: ");
 
-    // TODO: Prompt for end size
 
-    // TODO: Calculate number of years until we reach threshold
+    }
+    while (ssize <9);
 
-    // TODO: Print number of years
+    do
+    {
 
-}
+        esize = get_int("End size: ");
+
+    }
+    while (esize < ssize);
+
+    do
+    {
+
+        born = ssize / 3;
+        pass = ssize / 4;
+        ssize = ssize + born - pass;
+        i = i + 1;
+
+
+    }
+    while (esize > ssize);
+
+    printf("Years: %i \n", i);
+
+
