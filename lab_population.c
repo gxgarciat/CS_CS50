@@ -35,7 +35,6 @@ int main(void)
         ssize = ssize + born - pass;
         i = i + 1;
 
-
     }
     while (esize > ssize);
 
