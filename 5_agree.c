@@ -4,6 +4,7 @@
 int main(void)
 {
 
+
   // Get input from user
   char c == get_char("Do you agree: ");
   if (c == 'y' || c == 'Y')
